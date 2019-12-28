@@ -1,1 +1,1 @@
-I co ja mam tu niby zrobic ?
+Bede sie tu uczyl! XD
