@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+
+
+<html xmins="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta http-equiv="content-language" content="pl"/>
+    <meta name="author" content="Skrzypa"/>
+    <title> Mental </title>
+    <meta name="robots" content="index , follow"/>
+    <meta name="description" content="Trening Mentalny"/>
+    <meta name="keywords" content="Treningi indywidualne, treningi, pilka, trening psychologiczny"/>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.6.1.min.js"></script>
+
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="strona">
+    <div>
+    <div class="menu">
+        <div>
+            <ul id="wlasciwe_gorne_menu">
+                    
+                    <li><a href="#"><span class="link">Treningi </span></a>
+                        <ul class="drugi_poziom" style="width: 130px;">
+                            <li class="pierwszy_element_menu" style="width: 130px;"><a href="pilki.html">Kiedy </a></li>
+                            <li style="width: 120px;"><a href="#">Cena </a></li>
+                            <li style="width: 110px;"><a href="#">Nauka </a></li>
+                        </ul>
+                    </li>
+                <li><a href="#"><span class="link" style="width: 80px;">Menu </span></a>
+                        <ul class="trzeci_poziom" style="width: 130px;">
+                            <li class="pierwszy_element_menu" style="width: 130px;"><a href="pilki.html">Strona glowna </a></li>
+                            <li style="width: 120px;"><a href="#">O sobie </a></li>
+                            <li style="width: 110px;"><a href="#">Kontakt </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><span class="link">Spotkania </span></a>
+                        <ul class="czwarty_poziom" style="width: 130px;">
+                            <li class="pierwszy_element_menu" style="width: 120px;"><a href="pilki.html">Terminy </a></li>
+                            <li style="width: 110px;"><a href="#">Zajecia </a></li>
+                            <li style="width: 100px;"><a href="#">Typ treningu </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><span class="link">Treningi mentalne </span></a>
+                        <ul class="piaty_poziom" style="width: 130px;"
+                            <li class="pierwszy_element_menu" style="width: 120px;"><a href="pilki.html">Jak wygladaja zajecia </a></li>
+                            <li style="width: 110px;"><a href="#">Cel zajec </a></li>
+                            <li style="width: 100px;"><a href="#">Jak cwiczymy </a></li>
+                        </ul>
+                    </li>
+                </ul>
+        </div>
+       
+    </div>
+        <div class="srodek_strony">
+        <div class="bre1"> </div>
+     <div class="srodekt">
+         <img src="img\gory.jpg" alt="widoki" class="zdjecie">
+            
+<p>
+
+We współczesnym sporcie praca nad psychiką zawodników stanowi nieodłączny element treningu. Z myślą o tym przygotowaliśmy naszych psychologów do pracy z młodymi piłkarzami.
+
+Wszyscy psychologowie posiadający licencję Polish Soccer Skills bardzo dobrze znają metodologię Soccer Skills PRO, zatem ich praca jest doskonałym uzupełnieniem treningów indywidualnych, spójnym z realizowanym podczas tych treningów programem.
+
+Psychologowie są przygotowani zarówno do pracy podczas bezpośrednich spotkań, jak i zajęć prowadzonych przez Skype. Taka formuła umożliwia uczestniczenie w treningu mentalnym zawodnikom mieszkającym w miejscowościach, w których nie ma psychologa.
+</p>
+             <div class="bre"> </div>
+        </div>
+         <div class="srodekt">
+         <img src="img\gory.jpg" alt="widoki" class="zdjeciedr">
+             <p>
+
+
+                 Trening prowadzony przez trenerów Football posiadających licencję Soccer Skills PRO COACH ma na celu uzupełnienie treningu klubowego. Licencjonowani trenerzy korzystają z systemu online zawierającego roczną planifikację szkolenia, skupiającą się na aspektach motorycznych, technicznych i taktyce indywidualnej.
+
+Przewagą treningu w grupach czteroosobowych jest dbałość o szczegóły, które determinują poziom osiągnięcia mistrzostwa sportowego. Indywidualizacja pozwala na szybsze przyswojenie informacji przez zawodnika i zastosowanie nowych umiejętności w trakcie treningu klubowego oraz meczów.
+
+Treningi prowadzone wg filozofii Soccer Skills PRO pomagają we wzmaganiu poziom koncentracji u zawodników poprzez Ich optymalne pobudzenie w trakcie treningu.
+             </p>
+
+        </div>
+        </div>
+    </div>
+    <div class="bre2"> </div>
+    <footer class="stopka">
+        <div>
+            <h1>Imie Nazwisko</h1>
+        </div>
+    </footer>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+<script src="js/vendor/prefixfree.min.js"></script>
+
+
+
+<!--[if lt IE 9]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+
+<![endif]-->
+</body>
+</html>
