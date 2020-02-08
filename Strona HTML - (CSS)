@@ -1,0 +1,374 @@
+ *
+      {
+        padding: 0;
+        margin: 0;
+        border:0px;
+      }
+        body
+        {
+            background-image: url('obrazki/tlo_strony.jpg');
+            background-attachment: fixed;
+        }
+        a
+        {
+            color: blue;
+            text-decoration: none;
+            border-bottom: 1px dotted gray;
+        }
+        a:hover
+        {
+            color:red;
+        }
+        #kontener
+        {
+            width: 1004px;
+            margin: 0 auto;
+        }
+        /* gorna czesc kontenera */
+        #gorna_czesc_kontenera
+        {
+            position:relative;
+            margin-top: 10px;
+            background-image: url('obrazki/gora_i_dol.gif');
+            width: 944px;
+            height: 113px;
+        }
+        img.logo
+        {
+            border: 0;
+            position: absolute;
+            left: 8px;
+            top: 8px;
+            width:189px;
+        }
+        #kontakt_box
+        {
+            position:absolute;
+            right:40px;
+            top: 7px;
+            font-family: "Trebuchet MS" , Helvetica. sans-serif;
+             font-size:11px;
+             color: white;
+             line-height: 125%;
+        }
+        #kontakt_box a
+        {
+            border-bottom: none;
+        }
+        #gorne_menu
+        {
+            position: absolute;
+            left:200px;
+            bottom:-1px;
+        }
+        #wlasciwe_gorne_menu li
+        {
+            list-style-type: none;
+            float: left;
+            border-right: 1px solid #2E2121;
+        }
+        #wlasciwe_gorne_menu li a
+        {
+            background-color: grey;
+            height:31px;
+            display: block;
+            float: left;
+            border-bottom: none;
+            padding:0px 10px;
+            font-family:Verdana;
+            font-size:10px;
+            font-weight: bold;
+            color:blue;
+
+        }
+        #wlasciwe_gorne_menu li a:hover, #wlasciwe_gorne_menu li.aktualny a
+        {
+            background-color: white;
+        }
+        span.link
+        {
+            display:inline-block;
+            margin-top :10px;
+        }
+
+       #srodkowe_menu
+       {
+        background-color:orange;
+        width: 944px;
+        height: 32px;
+       }
+       #srodkowe_menu li
+       {
+            list-style: none;
+            float: left;
+            width: 100px;
+       }
+       #srodkowe_menu li a
+       {
+            border-bottom:none;
+            color: green;
+            font-size: 19px;
+            font-family: "Trebuchet MS" , Helvetica. sans-seri;
+            font-weight: bold;
+            font-style: italic;
+       }
+       #srodkowe_menu li span.link2
+       {
+            display: block;
+            margin-top:7px;
+       }
+       #srodkowe_menu #pierwszy_poziom
+       {
+            margin-left:70px;
+       }
+       #srodkowe_menu span.odstepik
+       {
+            display: inline-block;
+            margin: 5px 10px 0px 10px;
+       }
+       #srodkowe_menu li a:hover
+       {
+            color: white;
+       }
+        /* Menu rozwijane */
+       #pierwszy_poziom li .drugi_poziom
+       {
+        display: none;
+       }
+       #pierwszy_poziom li:hover .drugi_poziom
+       {
+            display: block;
+            width: 150px;
+       }
+        #pierwszy_poziom li .drugi_poziom li
+        {
+            width: 100px;
+
+        }
+        #pierwszy_poziom li
+        {
+            position:relative;
+        }
+        #pierwszy_poziom li .drugi_poziom
+        {
+            position: absolute;
+            top: 2em;
+            left: 0em;
+        }
+        #pierwszy_poziom > li
+        {
+            height: 32px;
+        }
+        #pierwszy_poziom li .drugi_poziom
+        {
+            background-color: orange;
+            border-left : 4px solid gray;
+            border-bottom : 4px solid gray;
+            border-right : 4px solid gray;
+            opacity: 0.9;
+            filter: alpha(opacity=90);
+        }
+        #pierwszy_poziom li .drugi_poziom li
+        {
+            margin-left: 10px;
+            border-top: 1px solid gray;
+        }
+        #pierwszy_poziom li .drugi_poziom li a
+        {
+            display: block;
+            width: 100px;
+            margin-bottom: 5px;
+            padding-bottom: 5px;
+        }
+        #pierwszy_poziom li .drugi_poziom li a:hover
+        {
+            background-color: gray;
+            border-top: 1px solid grey;
+            margin-top: -1px;
+            color: black;
+        }
+        #pierwszy_poziom li .drugi_poziom li a
+        {
+            font-family: "Trebuchet MS" , Helvetica. sans-seri;
+            font-size: 15px;
+            font-size: normal;
+            font-weight: bold;
+        }
+        #pierwszy_poziom li .drugi_poziom li.pierwszy_element_menu
+        {
+            margin-top: 5px;
+        }
+        /*zawartosc glowna strony  */
+        #zawartosc
+        {
+            width: 944px;
+        }
+        #gorna_czesc_zawartosci
+        {
+            background-color: white;
+            width: 944px;
+            height: 17px;
+        }
+        #srodkowa_czesc_zawartosci
+        {
+            background-color: white;
+            width: 944px;
+            background-repeat: repeat-y;
+            margin-top: 2px;
+        }
+        #dolna_czesc_zawartosci
+        {
+            background-color: white;
+            width: 944px;
+            height: 17px;
+            margin-top: 2px;
+
+        }
+        #tekst
+        {
+            margin-left: 10px;
+            margin-right:170px;
+            text-align: left;
+            padding:10px 50px;
+            line-height: 140%;
+            font-size: 12px;
+            font-family: "Trebuchet MS" , Helvetica. sans-seri;
+        }
+        h1
+        {
+            font-size: 18px;
+            text-align: center;
+            color:blue;
+            margin-bottom: 29px;
+            font-family: "Trebuchet MS" , Helvetica. sans-seri;
+            font-style: italic;
+        }
+        p
+        {
+            margin-bottom: 15px;
+        }
+        h3
+        {
+            margin-bottom: 15px;
+            color: #0A3C72;
+
+        }
+        #tekst ul
+        {
+            margin: 20px;
+            text-align: center;
+        }
+        #tekst li
+        {
+            margin-bottom: 5px;
+        }
+        #zawartosc .boczny_tekst
+        {
+            text-align: left;
+            float: right;
+            width: 150px;
+            height: 150px;
+            margin: 10px 20px;
+            font-size: 12px;
+            border: 3px solid gray;
+            padding: 10px 20px;
+
+        }
+        #zawartosc .obrazki
+        {
+            float: right;
+            clear: right;
+            margin-top: 55px;
+
+        }
+        #zawartosc .obrazki img
+        {
+            clear: right;
+            float: right;
+            margin: 100px 50px;
+            width: 160px;
+            padding: 5px 0px 0px;
+            cursor: pointer;
+            opacity:0.6;
+            filter: alpha(opacity=60);
+        }
+        /* dolna czesc strony */
+        #dolna_czesc_strony
+        {
+            background-image: url('obrazki/gora_i_dol.gif');
+            width: 944px;
+            height: 113px;
+            margin-bottom: 10px;
+        }
+        #newsleter_icon
+        {
+            float: left;
+            width: 100px;
+            margin-top:10px;
+            margin-left:10px;
+        }
+        #naglowek_nesleter
+        {
+            font-weight:bold;
+            font-family: "Comic Sans MS" , cursive, sans-serif;
+            font-size:15px;
+        }
+        #tekst_newsleter_icon
+        {
+        color: white;
+        text-align: left;
+        padding: 15px;
+        margin-left: 180px;
+        }
+        #form_newsleter
+        {
+            margin-top:10px;
+        }
+        .input_text
+        {
+            background-color: grey;
+            font-size: 12px;
+        }
+        .submit_button
+        {
+            padding:5px;
+            font-size:12px;
+            font-family: Verdana;
+            font-weight:bold:
+            cursor: pointer;
+            border: 2px outset black;
+        }
+        .submit_button:hover
+        {
+            color: blue;
+        }
+        .submit_button:active
+        {
+            border: 2px outset red;
+        }
+        #newsleter_info
+        {
+            font-size:11px;
+            font-family:Verdana;
+            margin-left:25px:
+            margin-top:4px;
+        }
+        #copywright
+        {
+            font-size:10px;
+            font-family:Verdana;
+            margin-bottom:10px;
+
+        }
+        #pilka
+        {
+            font-size: 25px;
+            padding:10px;
+
+        }
+        #rodzaje
+        {
+            font-size:20px;
+            text-align:left;
+
+        }
