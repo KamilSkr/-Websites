@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+
+
+<html xmins="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta http-equiv="content-language" content="pl"/>
+    <meta name="author" content="Skrzypa"/>
+    <title> Buty Piłkarskie </title>
+    <meta name="robots" content="index , follow"/>
+    <meta name="description" content="Trening Mentalny"/>
+    <meta name="keywords" content="Treningi indywidualne, treningi, pilka, trening psychologiczny"/>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/vendor/modernizr-2.6.1.min.js"></script>
+
+</head>
+    <body>
+        <div class="hero">
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <img src="logo.jpg">    
+            </div>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-close" onclick="closeMenu()"></i>
+                <ul>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>About</li></a>
+                    <a href="#"><li>Stars</li></a>
+                </ul>
+                <button type="button" class="btn">SIGN UP</button>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+            <div class="banner-title">
+                <h1>Niesamowite jest to,<span> że gdziekolwiek jesteśmy</span>, patrzymy na to samo niebo.</h1>
+                <button type="button" class="btn">EXPLORE</button>
+            </div>
+            <div class="vertical-bar">
+                <div class="search-icon">
+                    <i class="fa fa-list"></i>
+                    <i class="fa fa-search"></i>
+                </div>
+                <div class="social-icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-pinterest"></i>
+                </div>
+            </div>
+            <div class="notifications">
+                <div class="contents">
+                    <small>Subscribe Me On YouTube Channel</small>
+                    <p><a href="">PREV</a><a href="">NEXT</a></p>
+                </div>
+                <div class="notifications-img">
+                    <img src="samll.jpg">
+                </div>
+            </div>
+        </div>
+        <script>
+            var show = document.getElementById("nav-links");
+            function showMenu(){
+                show.style.right = "0";
+                
+            }
+            function closeMenu(){
+                show.style.right = "-200px";
+                
+            } 
+        </script>
+            
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>
