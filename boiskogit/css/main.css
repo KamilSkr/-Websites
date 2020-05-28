@@ -52,17 +52,6 @@ cursor: move;
     position: absolute;
     top:10px;
     left:24px;
-    visibility: hidden;
-}
-.zawodnicy li:hover p
-{
-    color: #105cb6;
-    font-weight: bold;
-    position: absolute;
-    top:10px;
-    left:24px;
-    visibility: visible;
-    
 }
 #napastnik
 {
